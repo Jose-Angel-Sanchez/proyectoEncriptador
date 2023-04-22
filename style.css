@@ -1,8 +1,16 @@
 .container__head{
 	position: absolute;
-	left: 20;
-	top: 20;
+	left: 20px;
+	top: 20px;
 	width: 60%;
 	height: 15%;
 	border: 1px solid red;
+}
+.container__main{
+	position: absolute;
+	left: 20px;
+	top: calc(15% + 20px);
+	width: 60%;
+	height: 60vh;
+	border: 1px solid blue;
 }
