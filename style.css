@@ -1,7 +1,6 @@
 body{
 	background: #E5E5E5;
 }
-
 .container__head{
 	position: absolute;
 	left: 5%;
@@ -57,12 +56,6 @@ body{
 	width: 60%;
 	height: 80%;
 	margin: 0 auto;
-}
-	.container__aside h2{
-	font-size: 16px;
-	font-weight: bold;
-	font-family: 'Inter', sans-serif;
-	text-align: center;
 }
 .container__footer{
 	position: absolute;
