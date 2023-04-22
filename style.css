@@ -5,7 +5,7 @@ body{
 	position: absolute;
 	left: 5%;
 	top: 3%;
-	width: 69%;
+	width: 59%;
 	height: 15%;
 }
 .container__main{
@@ -13,7 +13,7 @@ body{
 	padding: 0 0 0 10%;
 	left: 5%;
 	top: 18%;
-	width: 59%;
+	width: 49%;
 	height: 57%;
 }
 	.container__main textarea, .container__main ::placeholder{
@@ -43,19 +43,19 @@ body{
 	display: flex;
 	right: 3%;
 	top: 3%;
-	width: 22%;
+	width: 32%;
 	height: 90%;
 	background: #FFFFFF;
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 	border-radius: 32px;
 	align-items: center;
 }
-.container__aside img{
+.container__aside img,h2,p{
 	box-sizing: border-box;
 	display: block;
-	width: 60%;
-	height: 80%;
+	width: 90%;
 	margin: 0 auto;
+	text-align: center;
 }
 .container__footer{
 	position: absolute;
@@ -63,7 +63,7 @@ body{
 	padding: 0 0 0 10%;
 	left: 5%;
 	top: 75%;
-	width: 59%;
+	width: 49%;
 	height: 18%;
 	align-items: center;
 }
