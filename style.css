@@ -59,9 +59,32 @@ body{
 }
 .container__footer{
 	position: absolute;
+	display: flex;
 	padding: 0 0 0 10%;
 	left: 5%;
 	top: 75%;
 	width: 59%;
 	height: 18%;
+	align-items: center;
+}
+.container__footer button{
+	position: absolute;
+	box-sizing: border-box;
+	width: 40%;
+	height: 40%;
+	border-radius: 24px;
+}
+#encriptar{
+	display: block;
+	background: #0A3871;
+	left: 10%;
+	color: #FFFFFF;
+	border: 1px solid #0000FF;
+}
+#desencriptar{
+	display: block;
+	border: 1px solid #0A3871;
+	background: #D8DFE8;
+	left: 55%;
+	color: #0A3871;
 }
