@@ -1,5 +1,18 @@
 body{
 	background: #E5E5E5;
+	color: #0A3871;
+}
+h2{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+}
+p{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
 }
 .container__head{
 	position: absolute;
