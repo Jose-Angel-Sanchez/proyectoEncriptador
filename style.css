@@ -2,7 +2,7 @@
 	position: absolute;
 	left: 5%;
 	top: 3%;
-	width: 55%;
+	width: 69%;
 	height: 15%;
 	border: 1px solid red;
 }
@@ -10,7 +10,7 @@
 	position: absolute;
 	left: 5%;
 	top: 18%;
-	width: 55%;
+	width: 69%;
 	height: 57%;
 	border: 1px solid blue;
 }
@@ -18,7 +18,7 @@
 	position: absolute;
 	right: 3%;
 	top: 3%;
-	width: calc(40% - 44px);
+	width: 22%;
 	height: 90%;
 	border: 1px solid green;
 	background: #FFFFFF;
@@ -29,7 +29,7 @@
 	position: absolute;
 	left: 5%;
 	top: 75%;
-	width: 55%;
+	width: 69%;
 	height: 18%;
 	border: 1px solid yellowgreen;
 }
