@@ -14,6 +14,28 @@
 	height: 57%;
 	border: 1px solid blue;
 }
+	.container__main textarea,.container__main ::placeholder{
+		resize: none;
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		background-color: initial;
+		color: #0A3871;
+		font-family: 'Inter', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 150%;
+	}
+		.container__main textarea:focus{
+			resize: none;
+			box-sizing: border-box;
+			width: 100%;
+			height: 100%;
+			background-color: initial;
+			border: none;
+			outline: none;
+		}
 .container__aside{
 	position: absolute;
 	right: 3%;
