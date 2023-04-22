@@ -41,9 +41,9 @@ body{
 .container__aside{
 	position: absolute;
 	display: flex;
-	right: 3%;
+	right: 5%;
 	top: 3%;
-	width: 32%;
+	width: 25%;
 	height: 90%;
 	background: #FFFFFF;
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
