@@ -1,32 +1,32 @@
 .container__head{
 	position: absolute;
-	left: 20px;
-	top: 20px;
-	width: 60%;
+	left: 5%;
+	top: 3%;
+	width: 55%;
 	height: 15%;
 	border: 1px solid red;
 }
 .container__main{
 	position: absolute;
-	left: 20px;
-	top: calc(15% + 20px);
-	width: 60%;
-	height: 60vh;
+	left: 5%;
+	top: 18%;
+	width: 55%;
+	height: 57%;
 	border: 1px solid blue;
 }
 .container__aside{
 	position: absolute;
-	right: 20px;
-	top: 20px;
+	right: 3%;
+	top: 3%;
 	width: calc(40% - 44px);
-	height: calc(15% + 60vh);
+	height: 90%;
 	border: 1px solid green;
 }
 .container__footer{
 	position: absolute;
-	left: 20px;
-	bottom: calc(6% + 1px);
-	width: 60%;
-	height: 15%;
+	left: 5%;
+	top: 75%;
+	width: 55%;
+	height: 18%;
 	border: 1px solid yellowgreen;
 }
