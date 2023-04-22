@@ -22,3 +22,11 @@
 	height: calc(15% + 60vh);
 	border: 1px solid green;
 }
+.container__footer{
+	position: absolute;
+	left: 20px;
+	bottom: calc(6% + 1px);
+	width: 60%;
+	height: 15%;
+	border: 1px solid yellowgreen;
+}
