@@ -16,7 +16,7 @@ body{
 	width: 59%;
 	height: 57%;
 }
-	.container__main textarea,.container__main ::placeholder{
+	.container__main textarea, .container__main ::placeholder{
 		resize: none;
 		box-sizing: border-box;
 		width: 100%;
