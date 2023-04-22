@@ -10,9 +10,10 @@ body{
 }
 .container__main{
 	position: absolute;
+	padding: 0 0 0 10%;
 	left: 5%;
 	top: 18%;
-	width: 69%;
+	width: 59%;
 	height: 57%;
 }
 	.container__main textarea,.container__main ::placeholder{
@@ -49,8 +50,9 @@ body{
 }
 .container__footer{
 	position: absolute;
+	padding: 0 0 0 10%;
 	left: 5%;
 	top: 75%;
-	width: 69%;
+	width: 59%;
 	height: 18%;
 }
