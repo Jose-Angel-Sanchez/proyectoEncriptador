@@ -73,7 +73,7 @@ p{
 .container__footer{
 	position: absolute;
 	display: flex;
-	padding: 0 0 0 10%;
+	padding-left: 10%;
 	left: 5%;
 	top: 75%;
 	width: 49%;
@@ -86,6 +86,7 @@ p{
 	width: 40%;
 	height: 40%;
 	border-radius: 24px;
+	transition: .3s;
 }
 #encriptar{
 	display: block;
@@ -93,11 +94,23 @@ p{
 	left: 10%;
 	color: #FFFFFF;
 	border: 1px solid #0000FF;
+	box-shadow: 3px 3px 10px #0A3871;
 }
+	#encriptar:active{
+		background: #FFFFFF;
+		color: #0A3871;
+		transform: scale(0.9) scaleY(0.9);
+	}
 #desencriptar{
 	display: block;
 	border: 1px solid #0A3871;
 	background: #D8DFE8;
 	left: 55%;
 	color: #0A3871;
+	box-shadow: 3px 3px 10px #0A3871;
 }
+	#desencriptar:active{
+		background: #0A3871;
+		color: #FFFFFF;
+		transform: scale(0.9)
+	}
