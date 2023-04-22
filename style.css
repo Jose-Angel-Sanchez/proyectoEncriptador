@@ -1,6 +1,7 @@
 body{
 	background: #E5E5E5;
 }
+
 .container__head{
 	position: absolute;
 	left: 5%;
@@ -40,6 +41,7 @@ body{
 		}
 .container__aside{
 	position: absolute;
+	display: flex;
 	right: 3%;
 	top: 3%;
 	width: 22%;
@@ -47,6 +49,20 @@ body{
 	background: #FFFFFF;
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 	border-radius: 32px;
+	align-items: center;
+}
+.container__aside img{
+	box-sizing: border-box;
+	display: block;
+	width: 60%;
+	height: 80%;
+	margin: 0 auto;
+}
+	.container__aside h2{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Inter', sans-serif;
+	text-align: center;
 }
 .container__footer{
 	position: absolute;
