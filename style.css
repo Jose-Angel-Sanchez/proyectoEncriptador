@@ -14,3 +14,11 @@
 	height: 60vh;
 	border: 1px solid blue;
 }
+.container__aside{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: calc(40% - 44px);
+	height: calc(15% + 60vh);
+	border: 1px solid green;
+}
