@@ -1,4 +1,5 @@
 function encriptar() {
+	let copiar = document.querySelector("button#copiar")
 	let texto = document.querySelector('textarea').value;
 	let titulo = document.querySelector("h2");
 	let descripcion = document.querySelector("p");
@@ -14,9 +15,11 @@ function encriptar() {
 		titulo.innerText = "Texto encriptado correctamente:";
 		descripcion.innerText = textoCifrado;
 		imagen.style.display = "none";
+		copiar.style.display = "block";
 	}
 	else{
 		imagen.style.display = "block";
+		copiar.style.display = "block";
 		titulo.innerText = "Ningún mensaje fue encontrado.";
 		descripcion.innerText = "Ingresa el mensaje que deseas encriptar o desencriptar.";
 		alert("Debes ingresar al menos un caracter.");
@@ -45,4 +48,15 @@ function desencriptar() {
 		descripcion.innerText = "Ingresa el mensaje que deseas encriptar o desencriptar.";
 		alert("Debes ingresar al menos un caracter.");
 	}
+}
+
+document.getElementById("copiar").onclick = function() {
+    var copyTextarea = document.createElement("textarea");
+    copyTextarea.style.position = "fixed";
+    copyTextarea.style.opacity = "0";
+    copyTextarea.textContent = document.querySelector('textarea').value;
+    document.body.appendChild(copyTextarea);
+    copyTextarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(copyTextarea);
 }

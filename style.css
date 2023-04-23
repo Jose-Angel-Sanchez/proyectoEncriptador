@@ -63,6 +63,15 @@ p{
 	border-radius: 32px;
 	align-items: center;
 }
+#copiar{
+	box-sizing: border-box;
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	background: #0A3871;
+	color: #FFFFFF;
+}
 .container__aside img,h2,p{
 	box-sizing: border-box;
 	display: block;
