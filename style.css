@@ -80,6 +80,19 @@ p{
 	height: 18%;
 	align-items: center;
 }
+.condiciones{
+	position: absolute;
+	display: flex;
+	top: 65%;
+	width: 49%;
+	height: 18%;
+	align-items: center;
+}
+.condiciones p{
+	position: absolute;
+	display: block;
+	color: #CC1100;
+}
 .container__footer button{
 	position: absolute;
 	box-sizing: border-box;
