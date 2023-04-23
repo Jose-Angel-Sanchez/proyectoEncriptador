@@ -16,7 +16,9 @@ function encriptar() {
 		imagen.style.display = "none";
 	}
 	else{
-		document.getElementsByClassName("imagen").src = "/#";
+		imagen.style.display = "block";
+		titulo.innerText = "Ningún mensaje fue encontrado.";
+		descripcion.innerText = "Ingresa el mensaje que deseas encriptar o desencriptar.";
 		alert("Debes ingresar al menos un caracter.");
 	}
 }
