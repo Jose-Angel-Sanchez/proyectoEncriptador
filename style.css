@@ -7,12 +7,14 @@ h2{
 	font-style: normal;
 	font-weight: 600;
 	font-size: 26px;
+	box-sizing: border-box;
 }
 p{
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
+	box-sizing: border-box;
 }
 .container__head{
 	position: absolute;
