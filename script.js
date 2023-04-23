@@ -9,7 +9,7 @@ function encriptar() {
 	.replace(/a/gi, "ai")
 	.replace(/o/gi, "ober")
 	.replace(/u/gi, "ufat");
-	if (document.querySelector('textarea').value.length > 0) {
+	if (texto.length > 0) {
 		document.querySelector('textarea').value = textoCifrado;
 		titulo.innerText = "Texto encriptado correctamente:";
 		descripcion.innerText = textoCifrado;
@@ -18,7 +18,7 @@ function encriptar() {
 	else{
 		imagen.style.display = "block";
 		titulo.innerText = "Ningún mensaje fue encontrado.";
-		descripcion.innerText = "Ingresa el mensaje que deseas encriptar o desencriptar.";
+		descripcion.innerText = "Ingresa el mensaje que deseas encriptar o desencriptar.333333";
 		alert("Debes ingresar al menos un caracter.");
 	}
 }
