@@ -59,4 +59,5 @@ document.getElementById("copiar").onclick = function() {
     copyTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(copyTextarea);
+    document.querySelector('textarea').value = "";
 }
