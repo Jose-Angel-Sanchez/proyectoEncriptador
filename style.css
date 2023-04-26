@@ -202,3 +202,64 @@ p{
 	height: 18%;
 	}
 }
+@media (max-width: 767px){
+	p,button,h2{
+		font-size: 230%;
+	}
+	textarea{
+		font-size: 70px;
+		font-weight: 400;
+	}
+  .container__head{
+	left: 2%;
+	top: 3%;
+	width: 100%;
+	height: 33%;
+  }
+  .container__main{
+	left: -8%;
+	top: 20%;
+	width: 98%;
+	height: 33%;
+	}
+	.container__aside{
+		left: 2%;
+		top: 65%;
+		width: 98%;
+		height: 33%;
+		justify-content: center;
+	}
+		.container__aside img {
+  			left:0%;
+  			top: 65%;
+  			width: 10px;
+  			height: 15px;
+  		}
+
+	.container__footer{
+	padding: 10% 0 0 10%;
+	left: -1%;
+	top: 45%;
+	width: 100%;
+	height: 18%;
+	display: flex;
+	align-content: center;
+  }
+  #encriptar{
+  	left: 2%;
+  	top: 20%;
+  	width: 90%;
+  }
+  #desencriptar{
+  	left: 2%;
+  	top: 70%;
+  	width: 90%;
+  }
+  .condiciones{
+  	font-size: 12px;
+  	left: -2%;
+	top: 38%;
+	width: 98%;
+	height: 18%;
+	}
+} 
