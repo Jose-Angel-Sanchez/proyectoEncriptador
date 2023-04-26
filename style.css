@@ -161,9 +161,7 @@ p{
 		font-size: 60px;
 		font-weight: 400;
 	}
-  .container__aside img {
-  	display: none;
-  }
+
   .container__head{
 	left: 2%;
 	top: 3%;
@@ -183,6 +181,12 @@ p{
 		height: 33%;
 		justify-content: center;
 	}
+		.container__aside img {
+  			left:0%;
+  			top: 65%;
+  			width: 10px;
+  			height: 15px;
+  		}
 	.container__footer{
 	padding-left: 10%;
 	left: -8%;
